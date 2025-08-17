@@ -1,0 +1,7 @@
+language: node_js
+node_js:
+  - "18" # 指定 Node.js 版本
+install:
+  - npm install # 安装项目依赖
+script:
+  - npm test # 运行测试命令
